@@ -1,0 +1,10 @@
+//NÂO USADA!!!!
+void escreve_serial(String TAG, float TAG_DATA) {//void escreve_serial(String TAG, float TAG_DATA) {
+   Serial.print("&");
+   Serial.print(TAG_DATA);
+  // Serial.write(byte(TAG_DATA));
+   Serial.print("%"); //ln
+  // Serial.write(TAG_DATA);
+   //Serial.write(',');
+ 
+}
